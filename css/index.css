@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
 p,a {
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -76,7 +76,7 @@ span.estate {
     background: no-repeat scroll center scroll;
     -webkit-background-sizs: cover;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -91,7 +91,7 @@ span.estate {
 
 /* SERVICES SECTION */
 .serve {
-    color: green;
+    color: #040;
     font-weight: 600;
     font-size: 30px;
     width: 200px;
@@ -101,7 +101,7 @@ span.estate {
 .services h4 {
     font-weight: 600;
     margin-top: 20px;
-    color: #24272F;
+    color: black;
 }
 
 .draw {
@@ -111,69 +111,84 @@ span.estate {
 
 /* GALLERY SECTION */
 .gallery {
-    color: green;
+    color: #040;
 }
-.list{
-    color: crimson;
+
+.list {
+    color:#040;
     font-weight: 600;
 }
-.filter{
+
+.filter {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.filter span{
-    color: crimson;
+
+.filter span {
+    color: black;
     font-weight: 600;
 }
-.category{
+
+.category {
     margin-bottom: 20px;
 }
-.container-fluid{
+
+.container-fluid {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.content{
+
+.content {
     margin-top: -45px;
     display: flex;
     justify-content: space-between;
 }
-.price{
+
+.price {
     color: white;
     font-weight: 600;
 }
-.content img{
+
+.content img {
     height: 30px;
     color: transparent;
     margin-top: -7px;
 }
-.card img{
+.card img {
     cursor: pointer;
 }
-.content img:hover{
+
+.content img:hover {
     cursor: pointer;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
     font-weight: 500;
     border-bottom: 1px solid gray;
 }
-.location{
+
+.location {
     display: flex;
     justify-content: space-between;
     font-size: 13px;
     font-weight: 500;
 }
-.card{
+
+.card {
     box-shadow: 0px 0px 4px 2px gray;
     height: 300px;
 }
-.listing h5{
+
+.listing h5 {
     font-weight: 700;
 }
-.listing span{
-    color: crimson;
+
+.listing span {
+    color: #040E39;
 }
+
 .underline{
     border-bottom: 1px solid gray;
     width: 30%;
@@ -185,7 +200,7 @@ span.estate {
 .cto_section {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/Images/cto1.jpg);
+    background-color: #040;
     height: 70vh;
     background-size: 100% 100%;
     position: relative;
@@ -222,6 +237,7 @@ span.estate {
 .modal h5{
     font-weight: 700;
 }
+
 /* FOOTER SECTION */
 .footer_section {
     background: #010e31;

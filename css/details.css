@@ -47,10 +47,11 @@ span.estate {
   font-weight: bold;
 }
 
-/* end nav */
+/* FORM */
 #house {
-  height: 80vh;
+  height: 80vh ;
 }
+
 .form {
   background-color: #040;
   color: white;
