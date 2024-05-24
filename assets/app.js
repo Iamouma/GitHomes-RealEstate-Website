@@ -48,41 +48,37 @@ function displayProducts(products){
     productItems.innerHTML = "";
     products.forEach((product)=>{
         productItems.innerHTML += `
-                <div class="col-md-3">
-                <div class="card mb-3">
-                <a href="more.html">
-                <img
-                    src="${product.imgSrc}"
-                    class="card-img-top img-fluid"
-                    alt="..."
-                />
-                </a>
-                <div class="card-body">
-                    <div class="content">
-                    <h5 class="card-title price">ksh${product.price}</h5>
-                    <a href="details.html" target="_blank">
-                    <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/fa314a/plus.png"/>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <a href="amenity.html">
+                        <img
+                            src="${product.imgSrc}"
+                            class="card-img-top img-fluid"
+                            alt="..."
+                        >
                     </a>
+                    <div class="card-body">
+                        <div class="content">
+                            <h5 class="card-title price">$${product.price}</h5>
+                            <a href="details.html" target="_blank">
+                                <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/fa314a/plus.png"/>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <p class="card-text">${product.rooms}Bdrm</p>
+                            <p class="card-text">${product.size}sqm</p>
+                        </div>
+                        <div class="location">
+                            <div>
+                                <span>Estate</span>
+                                <span>${product.location}</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info">
-                    <p class="card-text">${product.rooms}Bdrm</p>
-                    <p class="card-text">${product.size}sqm</p>
-                    <p class="card-text">Gated</p>
-                    </div>
-                    <div class="location">
-                    <div>
-                        <span>Estate</span><br />
-                        <span>${product.location}</span>
-                    </div>
-                    <div>
-                        <span>AGent</span><br />
-                        <span>${product.agent}</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                <div>
             </div>
-        `
+       `
+
     })
 }
             displayProducts(products);

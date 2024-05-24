@@ -5,7 +5,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background: #E5E5E5;
+    background: black;
 }
 .card{
   height: 500px;
@@ -15,7 +15,7 @@ body{
   list-style: none;
 }
 a {
-  color: #D63B3B;;
+  color: black;
   text-decoration: none;
 }
 
@@ -26,15 +26,9 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-  color: #D63B3B;
+  color: green;
 }
 
-/* .wrap {
-  max-width: 1440px;
-  margin: auto;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
-/* } */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -42,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #D63B3B;
+  background: green;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -53,10 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 0;
 }
-.back-to-top:hover {
-  background: #D63B3B;
-  color: #fff;
-}
+
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -71,6 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 .scrolled-offset {
   margin-top: 70px;
 }
+
 /* navbar */
 .bgColor.scrolled{
   background: black;
@@ -117,7 +109,7 @@ span.estate{
   color: crimson;font-weight: bold;
 
 }
-/* End of navbar section */
+
 
 
 /*--------------------------------------------------------------
@@ -125,21 +117,12 @@ span.estate{
 --------------------------------------------------------------*/
 #about {
   width: 100%;
-  height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 150vh;
   background-size: cover;
   position: relative;
   border-bottom: 1px solid #222;
 }
-/* #about:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0; */
-/* } */
+
 #about .hero-container {
   position: absolute;
   bottom: 0;
@@ -246,7 +229,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   position: relative;
-  z-index: 2;
+  z-index: auto;
 }
 @media (max-width: 575px) {
   .section-title h2 {
@@ -282,11 +265,11 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #D63B3B;
+  color: #063E12;
 }
 .about .content .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: black;
   margin-left: 60px;
 }
 .about .image {
@@ -343,7 +326,7 @@ section {
   z-index: 2;
 }
 .features .card-title a {
-  color: #444444;
+  color: darkturquoise;
   transition: 0.3s;
 }
 .features .card-text {
@@ -355,20 +338,10 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   background: #fff;
 }
-.features .card:hover .card-title a {
-  color: #D63B3B;;
-}
+
 @media (max-width: 1024px) {
   .features {
     background-attachment: scroll;
-  }
-}
-
-@media (max-width: 768px) {
-  .about
-  .features {
-    margin-top: 80px;
-    margin-bottom: 80px;
   }
 }
 
