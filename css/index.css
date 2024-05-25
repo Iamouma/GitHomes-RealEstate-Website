@@ -3,12 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
 p,a {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -18,8 +16,8 @@ body {
 
 /* NAVBAR */
 .bgColor.scrolled {
-    background: black;
-    opacity: 0.9;
+    background: #003049;
+    opacity: 1;
 }
 
 .logo {
@@ -30,16 +28,15 @@ body {
 .navbar-brand {
     font-weight: bold;
     font-family: 'Jura', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    background: transparent;
+    background: #003049;
 }
 
 .navbar a {
-    color: green;
+    color: whitesmoke;
 }
 
 .navbar ul a {
@@ -48,25 +45,13 @@ body {
 }
 
 .navbar ul a:hover {
-    color: white;
+    color: darkcyan;
 }
 
 li a {
     font-weight: 700;
     text-transform: uppercase;
-    color: black;
-}
-
-span.logo {
-    color: crimson;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-span.estate {
-    color: crimson;font-weight: bold;
-
+    color: green;
 }
 
 /* HERO SECTION */
@@ -76,12 +61,11 @@ span.estate {
     background: no-repeat scroll center scroll;
     -webkit-background-sizs: cover;
     background-size: cover;
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
 .carousel-caption {
-    bottom: 75px;
+    bottom: 200px;
 }
 
 .carousel-caption h5 {
@@ -91,14 +75,20 @@ span.estate {
 
 /* SERVICES SECTION */
 .serve {
-    color: #040;
-    font-weight: 600;
+    color: #003049;
+    font-weight: 800;
     font-size: 30px;
     width: 200px;
     margin: auto;
 }
 
 .services h4 {
+    font-weight: 650;
+    margin-top: 20px;
+    color: #003049;
+}
+
+.services p {
     font-weight: 600;
     margin-top: 20px;
     color: black;
@@ -120,12 +110,11 @@ span.estate {
 }
 
 .filter {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 .filter span {
-    color: black;
+    color: #003049;
     font-weight: 600;
 }
 
@@ -134,7 +123,6 @@ span.estate {
 }
 
 .container-fluid {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -194,13 +182,10 @@ span.estate {
     width: 30%;
 }
 
-
-
-/* CTO */
+/* CTO SECTION */
 .cto_section {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #040;
+    background-color: #003049;
     height: 70vh;
     background-size: 100% 100%;
     position: relative;
@@ -211,14 +196,46 @@ span.estate {
     justify-content: center;
     align-items: center;
 }
-.cto_section h2{
+
+.cto_section h2 {
     font-weight: 700;
 }
-.cto_section p{
+
+.cto_section p {
     padding-left: 50px;
     padding-right: 50px;
 }
-.cto_section::before{
+
+.read-more-btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+    color: rgb(245, 245, 245);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    color: darkcyan;
+}
+
+.btn-secondary {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+    color: rgb(245, 245, 245);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #003049;
+}
+
+.cto_section::before {
     content: "";
     position: absolute;
     display: block;
@@ -230,17 +247,18 @@ span.estate {
     opacity: 0.3;
     z-index: -1;
 }
-.modal{
-    font-family: 'Montserrat', sans-serif;
+
+.modal {
     font-family: 'Poppins', sans-serif;
 }
-.modal h5{
+
+.modal h5 {
     font-weight: 700;
 }
 
 /* FOOTER SECTION */
 .footer_section {
-    background: #010e31;
+    background: #003049;
     color: white;
     padding: 10px;
 }

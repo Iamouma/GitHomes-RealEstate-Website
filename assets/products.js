@@ -3,7 +3,7 @@ const products = [
         id: 0,
         imgSrc : '/Images/image2.jpg',
         location: 'Lower Kabete',
-        price: 13000000,
+        price: 130000,
         rooms: 3,
         size: 120
     },
@@ -11,7 +11,7 @@ const products = [
         id: 1,
         imgSrc : '/Images/image3.jpg',
         location: 'Westlands',
-        price: 13000000,
+        price: 150000,
         rooms: 3,
         size: 120
     },
@@ -19,7 +19,7 @@ const products = [
         id: 2,
         imgSrc : '/Images/image4.jpeg',
         location: 'Kilimani',
-        price: 13000000,
+        price: 220000,
         rooms: 3,
         size: 120
     },
@@ -27,7 +27,7 @@ const products = [
         id: 3,
         imgSrc : '/Images/image5.jpg',
         location: 'Lavington',
-        price: 13000000,
+        price: 110000,
         rooms: 3,
         size: 120
     },
@@ -35,7 +35,7 @@ const products = [
         id: 4,
         imgSrc : '/Images/image6.jpg',
         location: 'Kileleshwa',
-        price: 1100000,
+        price: 10000,
         rooms: 2,
         size: 100
 
@@ -44,7 +44,7 @@ const products = [
         id: 5,
         imgSrc : '/Images/image7.jpg',
         location: 'Karen',
-        price: 4400000,
+        price: 225000,
         rooms: 4,
         size: 150
     },
@@ -52,7 +52,7 @@ const products = [
         id: 6,
         imgSrc : '/Images/image8.jpg',
         location: 'Runda',
-        price: 1200000,
+        price: 90000,
         rooms: 3,
         size: 110
     },
@@ -60,7 +60,7 @@ const products = [
         id: 7,
         imgSrc : '/Images/image9.jpg',
         location: 'Karen',
-        price: 60000000,
+        price: 60000,
         rooms: 7,
         size: 160
     },
@@ -68,7 +68,7 @@ const products = [
         id: 8,
         imgSrc : '/Images/image10.jpg',
         location: 'Limuru Road',
-        price: 7300000,
+        price: 30000,
         rooms: 5,
         size: 180
     },
@@ -76,7 +76,7 @@ const products = [
         id: 9,
         imgSrc : '/Images/image11.jpg',
         location: 'Lavington',
-        price: 84000000,
+        price: 40000,
         rooms: 6,
         size: 180
     },
@@ -84,6 +84,7 @@ const products = [
         id: 10,
         imgSrc : '/Images/image12.jpg',
         location: 'Muthaiga',
+        price: 105000,
         rooms: 3,
         size: 115
     },
@@ -91,7 +92,7 @@ const products = [
         id: 11,
         imgSrc : '/Images/image13.jpg',
         location: 'Lower Kabete',
-        price: 7700000,
+        price: 80000,
         rooms: 7,
         size: 145
     },
@@ -99,7 +100,7 @@ const products = [
         id: 12,
         imgSrc : '/Images/image14.jpg',
         location: 'Westlands',
-        price: 6100000,
+        price: 500000 ,
         rooms: 3,
         size: 148
     },
@@ -107,7 +108,7 @@ const products = [
         id: 13,
         imgSrc : '/Images/image15.jpg',
         location: 'Kilimani',
-        price: 5500000,
+        price: 700000,
         rooms: 2,
         size: 120
     },
@@ -115,7 +116,7 @@ const products = [
         id: 14,
         imgSrc : '/Images/image16.jpg',
         location: 'Lavington',
-        price: 44000000,
+        price: 40000,
         rooms: 7,
         size: 124
     },
@@ -123,7 +124,7 @@ const products = [
         id: 15,
         imgSrc : '/Images/image17.jpg',
         location: 'Kileleshwa',
-        price: 12000000,
+        price: 12000,
         rooms: 5,
         size: 200
     },
@@ -131,23 +132,23 @@ const products = [
         id: 16,
         imgSrc : '/Images/image18.jpg',
         location: 'Karen',
-        price: 15000000,
+        price: 150000,
         rooms: 6,
         size: 220
     },
     {
         id: 17,
-        imgSrc : '/images/image19.jpeg',
+        imgSrc : '/images/image19.jpg',
         location: 'Runda',
-        price: 19000000,
+        price: 190000,
         rooms: 7,
         size: 130
     },
     {
         id: 18,
-        imgSrc : '/Images/image20.jpg',
+        imgSrc : '/Images/image26.jpg',
         location: 'Limuru Road',
-        price: 25000000,
+        price: 250000,
         rooms: 6,
         size: 232
     },
@@ -155,7 +156,7 @@ const products = [
         id: 19,
         imgSrc : '/Images/image21.jpg',
         location: 'Muthaiga',
-        price: 25000000,
+        price: 200000,
         rooms: 4,
         size: 190
     },

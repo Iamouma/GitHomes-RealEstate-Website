@@ -1,32 +1,28 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
     font-family: 'Poppins', sans-serif;
     background: black;
 }
-.card{
+
+.card {
   height: 500px;
   text-align: center;
 }
-.card li{
+
+.card li {
   list-style: none;
 }
+
 a {
   color: black;
   text-decoration: none;
 }
 
-a:hover {
-  color: #72c393;
-  text-decoration: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-  color: green;
+  color: #003049;
 }
 
 .back-to-top {
@@ -36,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: green;
+  background: black;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -63,64 +59,53 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
 }
 
-/* navbar */
-.bgColor.scrolled{
-  background: black;
-  opacity: 0.9;
+/* NAVBAR */
+.bgColor.scrolled {
+  background: #003049;
+  opacity: 1;
 }
-.logo{
+
+.logo {
   height: 100px;
   width: 100px;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-weight: bold;
   font-family: 'Jura', sans-serif;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-.navbar{
+
+.navbar {
   background: transparent;
 }
-.navbar a{
+
+.navbar a {
   color: white;
 }
-/* .navbar ul{
-  margin-left: 200px;
-} */
-.navbar ul a{
+
+.navbar ul a {
   margin-left: 30px;
   margin-right: 30px;
 }
-.navbar ul a:hover{
-  color: crimson;
+
+.navbar ul a:hover {
+  color: darkcyan;
 }
+
 li a{
   font-weight: 700;
   text-transform: uppercase;
   color: black;
 }
-span.logo{
-  color: crimson;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
-}
-span.estate{
-  color: crimson;font-weight: bold;
 
-}
-
-
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* HREO SECTION */
 #about {
   width: 100%;
-  height: 150vh;
+  height: 140vh;
   background-size: cover;
   position: relative;
-  border-bottom: 1px solid #222;
+  border-bottom: 3px solid #003049;
 }
 
 #about .hero-container {
@@ -187,9 +172,7 @@ span.estate{
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* SECTIONS */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -241,9 +224,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* ABOUT */
 .about .content {
   padding-left: 30px;
 }
@@ -295,9 +276,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
+/* FEATURES */
 .features .card {
   border-radius: 5px;
   overflow: hidden;
@@ -326,7 +305,7 @@ section {
   z-index: 2;
 }
 .features .card-title a {
-  color: darkturquoise;
+  color: whitesmoke;
   transition: 0.3s;
 }
 .features .card-text {
@@ -346,9 +325,7 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/* SERVICES */
 .services {
   padding-bottom: 30px;
 }
@@ -381,104 +358,4 @@ section {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
-}
-#Portfolio Details
-.portfolio-details {
-  padding-top: 40px;
-}
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #D63B3B;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #D63B3B;
-}
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(68, 68, 68, 0.08);
-}
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-.footer_section{
-  background: #24272F;
-  color: white;
-  padding: 10px;
-}
-.footer_section h6{
-  font-weight: 700;
-  text-transform: uppercase;
-  color: blue;
-  padding-top: 20px;
-}
-.footer_section li::marker{
-  font-size: 30px;
-}
-.icons{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-.icons img{
-  height: 30px;
-  margin: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-.footer_section input{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #E5E5E5;
-}
-.footer_section button{
-  width: 100%;
-  text-align: center;
-  background: transparent;
-  border-color: blue;
-  height: 38px;
-  color: white;
-  text-transform: uppercase;
-}
-.footer_section button:hover{
-  background: blue;
-  transition: 2s;
-  font-weight: 700;
 }
