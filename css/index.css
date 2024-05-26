@@ -20,11 +20,6 @@ body {
     opacity: 1;
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
-}
-
 .navbar-brand {
     font-weight: bold;
     font-family: 'Jura', sans-serif;
@@ -33,6 +28,7 @@ body {
 
 .navbar {
     background: #003049;
+    height: 60px;
 }
 
 .navbar a {
@@ -70,7 +66,7 @@ li a {
 
 .carousel-caption h5 {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 /* SERVICES SECTION */

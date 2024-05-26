@@ -54,7 +54,7 @@ li a {
 /* HERO SECTION */
 header {
     position: relative;
-    background-color: #040;
+    background-color: #080E29;
     height: 75vh;
     min-height: 25rem;
     width: 100%;
@@ -94,7 +94,7 @@ header .overlay {
 
 /* CONTACT FORM */
 .alert {
-    background: #040;
+    background: #080E29;
     color: white;
     text-align: center;
     font-weight: 700;
