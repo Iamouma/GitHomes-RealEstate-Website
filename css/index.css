@@ -28,7 +28,6 @@ body {
 
 .navbar {
     background: #003049;
-    height: 60px;
 }
 
 .navbar a {
@@ -65,8 +64,8 @@ li a {
 }
 
 .carousel-caption h5 {
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 /* SERVICES SECTION */
