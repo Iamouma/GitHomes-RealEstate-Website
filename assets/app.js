@@ -111,11 +111,11 @@ function displayProducts(products){
                 var selectedPrice = this.value;
 
                 if(selectedPrice == 1){
-                    var price = products.filter(product => product.price <= 10000000);
+                    var price = products.filter(product => product.price <= 10000);
                 }else if(selectedPrice == 2){
-                    var price = products.filter(product => product.price  > 11000000 && product.price <=20000000);
+                    var price = products.filter(product => product.price  > 110000 && product.price <=200000);
                 }else if(selectedPrice == 3){
-                    var price = products.filter(product => product.price  > 21000000 );
+                    var price = products.filter(product => product.price  > 210000 );
                 }
                 console.log(price);
                 displayProducts(price);
