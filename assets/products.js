@@ -138,7 +138,7 @@ const products = [
     },
     {
         id: 17,
-        imgSrc : '/images/image19.jpg',
+        imgSrc : '/Images/image19.jpg',
         location: 'Runda',
         price: 190000,
         rooms: 7,
