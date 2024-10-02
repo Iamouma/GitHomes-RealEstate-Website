@@ -1,4 +1,4 @@
-GitHomes Real Estate
+GitHomes Real Estate.
 
 
 Table of Contents
